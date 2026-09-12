@@ -1,0 +1,24 @@
+# Data (never commit datasets)
+data/
+*.jpg
+*.jpeg
+*.png
+!results/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
